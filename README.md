@@ -2,8 +2,6 @@
 
 > **A complete fungible token system built on Internet Computer Protocol**
 
-![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen) ![Platform](https://img.shields.io/badge/Platform-Internet%20Computer-blue) ![License](https://img.shields.io/badge/License-Educational-orange)
-
 ## 🎯 **Overview**
 
 EduCoin is a fully functional fungible token system demonstrating modern blockchain development on the Internet Computer. It features secure authentication, real-time token operations, and a professional user interface.
@@ -185,25 +183,6 @@ dfx canister logs fungible_token_frontend
 - **Stable memory** for secure data persistence
 - **Error handling** to prevent invalid operations
 
-## Deployment Checklist
-
-### Local Testing
-- [ ] DFX started and canisters deployed
-- [ ] Frontend loads and displays correctly
-- [ ] Internet Identity login works
-- [ ] Token explorer shows initial creator balance
-- [ ] Transfer functionality works
-- [ ] Mint functionality works (creator only)
-- [ ] Balance checker works
-- [ ] Error handling works correctly
-
-### Production Deployment
-- [ ] Canisters deployed to IC mainnet
-- [ ] Environment variables updated for production
-- [ ] Frontend accessible via ic0.app URL
-- [ ] Internet Identity login works on mainnet
-- [ ] All functionality tested on mainnet
-- [ ] Creator controls verified
 
 ## Troubleshooting
 
